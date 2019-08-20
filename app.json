@@ -1,7 +1,7 @@
 {
   "pages": [
-    "pages/events/events",
     "pages/list/list",
+    "pages/events/events",
     "pages/flex/flex",
     "pages/wxss/wxss",
     "pages/binding/binding",
