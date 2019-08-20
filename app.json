@@ -1,11 +1,11 @@
 {
   "pages": [
+    "pages/navi/navi",
     "pages/events/events",
     "pages/list/list",
     "pages/flex/flex",
     "pages/wxss/wxss",
     "pages/binding/binding",
-    "pages/navi/navi",
     "pages/index/index",
     "pages/form/form",
     "pages/checkbox/checkbox",
