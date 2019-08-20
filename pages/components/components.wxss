@@ -1,0 +1,6 @@
+/* pages/components/components.wxss */
+
+.hover_class {
+  background-color: aqua;
+  opacity: 0.5;
+}

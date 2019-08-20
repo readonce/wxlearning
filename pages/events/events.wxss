@@ -1,0 +1,35 @@
+
+
+/* pages/events/events.wxss */
+.article-list {
+  font-size:14px;
+  height: 40px;
+  padding: 10px;
+  line-height: 40px;
+  border-bottom: 1px solid #e4e4e4
+}
+
+
+
+.view-parent-container {
+  width: 300rpx;
+  height: 300rpx;
+  background-color: yellowgreen;
+}
+
+.hover-parent-container {
+  background-color: #fff;
+}
+
+.view-container{
+  width:200rpx;
+  height:200rpx;
+  background: chocolate;
+  color:#fff;
+  text-align: center;
+  line-height: 200prx;
+}
+
+.hover-container {
+  background: rgba(0, 0, 0, 0.7)
+}

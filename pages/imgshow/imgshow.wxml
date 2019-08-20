@@ -1,0 +1,4 @@
+<view>
+<!-- 默认显示320*240 -->
+  <image src='../../imgs/logo.png' mode='widthFix'> </image>
+</view>

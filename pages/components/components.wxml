@@ -1,0 +1,4 @@
+<view hover-class="hover_class">Test Hover</view>
+<view>
+  <text selectable>选择试试看</text>
+</view>

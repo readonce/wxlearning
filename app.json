@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/events/events",
+    "pages/list/list",
+    "pages/flex/flex",
+    "pages/wxss/wxss",
+    "pages/binding/binding",
+    "pages/navi/navi",
+    "pages/index/index",
+    "pages/form/form",
+    "pages/checkbox/checkbox",
+    "pages/forms/forms",
+    "pages/base/base",
+    "pages/swip/swip",
+    "pages/wxs/wxs",
+    "pages/helloworld/helloworld",
+    "pages/videos/videos",        
+    "pages/imgshow/imgshow",
+    "pages/components/components",
+    "pages/styles/styles",
+    "pages/culc/culc",   
+    "pages/detail/detail",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "名正言顺",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh":false
+  },
+  "tabBar": {
+    "color":"#000",
+    "selectedColor":"#1AAD16",
+    "backgroundColor":"fff",
+    "list": [{
+      "pagePath": "pages/navi/navi",
+      "text": "首页Tab",
+      "iconPath": "icons/wifi.png",
+      "selectedIconPath": "icons/wifi.png"
+    },
+    {
+      "pagePath": "pages/detail/detail",
+      "text": "详情",
+      "iconPath": "icons/dog.png",
+      "selectedIconPath": "icons/dog.png"
+    }
+    ]
+  }
+  ,
+  "sitemapLocation": "sitemap.json"
+}

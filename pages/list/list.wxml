@@ -1,0 +1,15 @@
+<!--pages/list/list.wxml-->
+<!-- <view wx:for="{{books}}" wx:key>
+  {{index}}:{{item}}
+</view>
+
+<block wx:for="{{books}}" wx:key>
+<view>{{index}}</view>
+<view>{{item}}</view>
+</block> -->
+
+<view wx:for="{{lines}}" wx:key="id">
+  <switch>{{item.name}}</switch>
+</view>
+
+<button bindtap='onBtnTap'>更新</button>

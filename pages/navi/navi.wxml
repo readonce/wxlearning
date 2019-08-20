@@ -1,0 +1,7 @@
+<navigator url="../swip/swip" open-type="navigate">Navi Navigate</navigator>
+
+<navigator url="../swip/swip" open-type="redirect">Navi Redirect</navigator>
+
+<navigator url="../detail/detail" open-type="switchTab">Navi SwitchTab</navigator>
+
+<navigator url="../index/index" open-type="reLaunch">Navi Relaunch</navigator>

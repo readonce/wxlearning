@@ -1,0 +1,25 @@
+<!--pages/events/events.wxml-->
+<!-- <view>
+  <view class='btn' bindtap='clickMe'>点击我！</view>
+</view>
+<view class="section">
+  <view class='view-parent-container' hover-class='hover-parent-container'>
+    <view class="view-container"
+      hover-class='hover-container'
+      hover-stop-propagation='true'
+      hover-start-time='500'
+      hover-hover-stay-time='300'
+    >
+    </view>
+  </view>
+</view> -->
+
+<view class="article-list"
+ wx:for="{{articles}}"
+  wx:key="id" 
+  bindtap="onTabArticle"
+  data-id="{{item.id}}"
+  data-title="{{item.title}}"
+  >
+{{item.title}}
+</view>

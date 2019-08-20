@@ -1,0 +1,41 @@
+<!--pages/forms/forms.wxml-->
+<button size='mini' type='primary' form-type='submit'>提交</button>
+
+<button
+  type='default'
+  size='{{defaultSize}}'
+  loading='{{loading}}'
+  plain='{{plain}}'
+  disabled='{{disabled}}'
+  bindtap='default'
+  hover-class='other-button-hover'  
+>
+DEFAULT
+</button>
+<button
+  type='primary'
+  size='{{primarySize}}'
+  loading='{{loading}}'
+  plain='{{plain}}'
+  disabled='{{disabled}}'
+  bindtap='primary'  
+>
+Primary
+</button>
+
+<button 
+  type='warn' 
+  size='{{warnSize}}' 
+  loading='{{loading}}'
+  plain='{{plain}}'
+  disabled='{{disabled}}'
+  bindtap='warn'
+  >Warn</button>
+
+<button bindtap='setDisabled'>点击设置以上按钮Disable属性</button>
+<button bindtap='setPlain'>点击设置以上按钮Plain属性</button>
+<button bindtap='setLoading'>点击设置以上按钮Loading属性</button>
+
+<button open-type='contact' bindcontact='getContactInfo'>进入客服会话</button>
+<button open-type='share'>触发转发</button>
+<button open-type='getPhoneNumber' bindcontact='getPhoneNumber'>获取用户信息</button>

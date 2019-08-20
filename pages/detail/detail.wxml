@@ -1,0 +1,9 @@
+<view>
+  {{msg}}
+  <view>数量： {{num}}</view>
+  <view>isBoy: {{isBoy}}</view>
+  <view>person.name: {{person.name}}</view>
+  <view>person.age: {{person.age}}</view>
+  <view data-id="{{title}}"> title</view>
+  <view><checkbox checked="{{true}}"></checkbox></view>
+</view>

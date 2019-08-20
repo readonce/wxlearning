@@ -1,0 +1,15 @@
+<view>
+  <checkbox checked='{{isChecked}}'></checkbox>
+  <view>{{ num1 + num2 }}</view>
+  <view>
+    <checkbox checked='{{num3>=20}}'></checkbox>
+  </view>
+  <view>
+    <view wx:for="{{messages}}" wx:key="{{index}}">
+      {{index}}:{{item}}
+    </view>
+    <view wx:for="{{person}}" wx:key="{{index}}" wx:for-index="key">
+      {{key}}:{{item}}
+    </view>
+  </view>
+</view>

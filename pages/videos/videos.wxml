@@ -1,0 +1,2 @@
+<!--pages/videos/videos.wxml-->
+<video src='' controls></video>

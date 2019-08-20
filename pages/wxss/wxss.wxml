@@ -1,0 +1,17 @@
+<!--pages/wxss/wxss.wxml-->
+<view class='news-group'>
+  <!-- 左边信息组 -->
+  <view class='info-group'>
+    <view class='title'>
+      震惊！美国人被这国的武器吓尿了！
+    </view>
+    <view class='more-info'>
+      <text class='author'>咸鱼君</text>
+      <text class='time'>10月1日</text>
+    </view>
+  </view>
+  <!-- 缩略图 -->
+  <view class='thumbnail-group'>
+    <image class='thumbnail' src='https://ss0.baidu.com/73t1bjeh1BF3odCf/it/u=2605369325,1728769634&fm=85&s=ED100E9C5A833CCA740940A103007021'></image>
+  </view>
+</view>

@@ -1,0 +1,14 @@
+<wxs module ="m1">
+  module.exports = {
+    message: "Hello, WXS!!"
+  }
+</wxs>
+
+<wxs module ="m2">
+  var v = "Message V";
+  module.exports.value = v;
+  console.log(v)
+</wxs>
+
+<view>{{m1.message}}</view>
+<view>{{m2.value}}</view>
