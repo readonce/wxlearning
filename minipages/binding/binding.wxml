@@ -1,0 +1,10 @@
+<!--minipages/binding/binding.wxml-->
+<view>你好！ {{name}}</view>
+<view>年龄： {{age}}</view>
+
+<!-- 列表展示 wx:for -->
+<view wx:for="{{students}}">{{item.name}}-{{item.age}}</view>
+
+<view>当前计数 {{counter}}</view>
+<button size='mini' bindtap='tapHandler'>+</button>
+<button size='mini' bindtap='subHandler'>-</button>

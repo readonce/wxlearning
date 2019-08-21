@@ -1,5 +1,6 @@
 {
   "pages": [
+    "minipages/binding/binding",
     "pages/navi/navi",
     "pages/events/events",
     "pages/list/list",
